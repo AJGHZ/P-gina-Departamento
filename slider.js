@@ -13,6 +13,13 @@
         
         value  = currentElement;
         value+= change;
-    
+
+        console.log(slider.length);
+        if(value === 0 || value == slider.length+1){
+            value = value === 0 ? slider.length : 1;
+        }
+        
+        slider[currentElement-1].classList.toggle('slider__body--show');
+        slider[value-1].classList.toggle('slider__body--show');
     }
 })()

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
 
+/*Slider css*/
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -45,13 +46,15 @@ body {
   max-width: 600px;
 }
 
-.subtitle{
+.subtitle {
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
-.slider__review{
-  
+.slider__review {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.7;
 }
 
 .slider__img {
@@ -60,6 +63,15 @@ body {
   object-fit: cover;
   display: block;
   margin: auto;
+}
+
+.slider__arrow{
+  cursor: pointer;
+  width: 90%;
+}
+
+.slider__arrow:nth-of-type(2){
+  justify-self: end;
 }
 
 /*menu responsive*/

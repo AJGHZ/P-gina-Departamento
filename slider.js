@@ -9,7 +9,6 @@
     arrowBefore.addEventListener('click', () => changePosition(-1));
 
     function changePosition(change) {
-        console.log(change);
         const currentElement = Number(document.querySelector('.slider__body--show').dataset.id);
         
         value  = currentElement;

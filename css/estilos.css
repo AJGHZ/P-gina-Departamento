@@ -58,7 +58,7 @@ body {
 }
 
 .slider__img {
-  width: 280px;
+  width: 380px;
   height: 230px;
   object-fit: cover;
   display: block;
@@ -91,6 +91,7 @@ body {
   }
 }
 
+
 @media (max-width: 480px){
   .slider__container{
     grid-template-columns: 25px 1fr 25px;
@@ -114,6 +115,13 @@ body {
     font-size: 1rem;
     line-height: 1.6;
   }
+}
+
+/*Información pagina principal*/
+.info__container{
+  font-family: "Raleway", sans-serif;
+  font-size: xx-large;
+  text-align: justify;
 }
 
 /*menu responsive*/

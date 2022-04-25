@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
 
+/*Notas de cosas a cambiar:
+  1.- Eliminar textos de slider.
+  2.- Añadir imagen de cabecera a cada una de las paginas.
+  3.- Añadir imagen de fondo con la información en la pagina principal(index.html).
+  4.- Hacer que el slider sea automatico(slider.js).
+*/
+
 /*Slider css responsive*/
 body {
   font-family: "Raleway", sans-serif;
@@ -122,6 +129,22 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: xx-large;
   text-align: justify;
+}
+
+@media (max-width: 747px){
+  .info__container{
+    font-family: "Raleway", sans-serif;
+    font-size: large;
+    text-align: justify;
+  }
+}
+
+@media(max-width: 470px){
+  .info__container{
+    font-family: "Raleway", sans-serif;
+    font-size: medium;
+    text-align: justify;
+  }
 }
 
 /*menu responsive*/

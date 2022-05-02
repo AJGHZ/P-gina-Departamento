@@ -147,6 +147,15 @@ body {
   }
 }
 
+.link__container{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: grid;
+  background-color: lightblue;
+  grid-template-columns: 1fr max-content;
+  align-items: center;
+}
+
 /*menu responsive*/
 #menu {
   background-color: black;

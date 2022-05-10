@@ -153,6 +153,25 @@ body {
   background-color: lightblue;
   grid-template-columns: 1fr max-content;
   align-items: center;
+  margin: 20px 10px 20px 20px;
+}
+
+.direccion{
+  display: inline-block;
+  float: left;
+  text-align: left;
+  font-size: small;
+  border: none;
+  margin: 30px 15px 30px 30px;
+  padding: 40px 0px 0px 32px;
+}
+
+.mapa{
+  display: inline-block;
+  float: right;
+  border: none;
+  margin: 30px 15px 30px 30px;
+  padding: 40px 0px 0px 32px;
 }
 
 /*menu responsive*/

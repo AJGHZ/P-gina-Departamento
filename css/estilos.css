@@ -72,82 +72,81 @@ body {
   margin: auto;
 }
 
-.slider__arrow{
+.slider__arrow {
   cursor: pointer;
   width: 90%;
 }
 
-.slider__arrow:nth-of-type(2){
+.slider__arrow:nth-of-type(2) {
   justify-self: end;
 }
 
-@media (max-width: 747px){
-  .slider__body{
+@media (max-width: 747px) {
+  .slider__body {
     grid-template-columns: 1fr;
     grid-template-rows: max-content 1fr;
     gap: 1em;
   }
 
-  .slider__picture{
+  .slider__picture {
     grid-row: 1/2;
   }
 
-  .slider__img{
+  .slider__img {
     width: 210px;
     height: 210px;
   }
 }
 
-
-@media (max-width: 480px){
-  .slider__container{
+@media (max-width: 480px) {
+  .slider__container {
     grid-template-columns: 25px 1fr 25px;
   }
 
-  .slider__arrow{
+  .slider__arrow {
     width: 100%;
   }
 
-  .slider__img{
+  .slider__img {
     width: 180px;
     height: 180px;
   }
- 
-  .subtitle{
+
+  .subtitle {
     font-size: 2rem;
     margin-bottom: 15px;
   }
 
-  .slider__review{
+  .slider__review {
     font-size: 1rem;
     line-height: 1.6;
   }
 }
 
 /*Información pagina principal*/
-.info__container{
+.info__container {
   font-family: "Raleway", sans-serif;
   font-size: xx-large;
   text-align: justify;
 }
 
-@media (max-width: 747px){
-  .info__container{
+@media (max-width: 747px) {
+  .info__container {
     font-family: "Raleway", sans-serif;
     font-size: large;
     text-align: justify;
   }
 }
 
-@media(max-width: 470px){
-  .info__container{
+@media (max-width: 470px) {
+  .info__container {
     font-family: "Raleway", sans-serif;
     font-size: medium;
     text-align: justify;
   }
 }
 
-.link__container{
+.link__container {
   grid-column: 2/3;
   grid-row: 1/2;
   display: grid;
@@ -203,4 +202,58 @@ body {
   #menu ul li {
     width: 100%;
   }
-} 
+}
+
+/*Dropdown container*/
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/*Dropdown button*/
+.dropdown .dropBtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: whitesmoke;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: "Raleway";
+  margin: 0;
+}
+
+/*bgColor dropdown */
+.menu a:hover,
+.dropdown:hover .dropBtn {
+  background-color: black;
+}
+
+/*Dropdown content (hidden by default)*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/*Links*/
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/*Color on links hover*/
+.dropdown-content a:hover {
+  background-color: gray;
+}
+
+/*Show dropDown menu on hover*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}

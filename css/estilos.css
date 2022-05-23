@@ -371,16 +371,21 @@ input, textarea{
 }
 
 .materias-container{
-    background-color: antiquewhite;
-    width: 100%;
-    text-align: center;    
     display: grid;
     grid-template-columns: auto auto auto;
-
+    grid-template-rows: 50px auto;
+    justify-content: stretch;
+    background-color: antiquewhite;
+    width: 100%;
+    text-align: center;   
 }
 
 .seccion-BCO{
   background-color: yellow;
+}
+
+.sb{
+  grid-column: 1/4;
 }
 
 .caja{

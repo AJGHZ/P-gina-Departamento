@@ -394,3 +394,11 @@ input, textarea{
     text-align: center;
     line-height: 50px;
 }
+
+.seccion-BPO{
+    background-color: orangered;
+}
+
+.sp{
+    grid-column: 1/4;
+}

@@ -20,7 +20,7 @@ body {
 }
 
 .slider {
-  background-color: greenyellow;
+  background-color: #DCDCDC;
   padding: 40px 0;
   margin: 20px 10px 20px 20px;
 }
@@ -38,7 +38,7 @@ body {
   opacity: 0;
   pointer-events: none;
   display: grid;
-  background-color: greenyellow;
+  background-color: #DCDCDC;
   grid-template-columns: 1fr max-content;
   align-items: center;
   transition: opacity 1.5s;
@@ -66,7 +66,7 @@ body {
 
 .slider__img {
   width: 480px;
-  height: 230px;
+  height: 330px;
   object-fit: cover;
   display: block;
   margin: auto;
@@ -256,7 +256,7 @@ body {
 }
 
 #menu li a:hover {
-  background-color: cornflowerblue;
+  background-color: #708090;
   color: white;
 }
 
@@ -280,6 +280,38 @@ body {
   #menu ul li {
     width: 100%;
   }
+}
+
+body{
+  font-family: "Raleway", sans-serif;
+  background: #e8e8e8;
+  font-size:medium;
+}
+
+.menu{
+  list-style: none;
+  padding: 5px 9px;
+  background: black;
+  width: 10%
+  max-width: 100px;
+  margin: auto;
+
+}
+
+.menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 1px;
+  display: block;
+  font-size: smaller;
+}
+.menu li{
+  display: inline-block;
+  text-align: center;
+
+}
+.menu li a:hover{
+  background: #708090;
 }
 
 /*Dropdown container*/
@@ -401,4 +433,44 @@ input, textarea{
 
 .sp{
     grid-column: 1/4;
+}
+
+.seccion-BEO{
+  background-color: green;
+}
+
+.se{
+  grid-column: 1/4;
+}
+
+.seccion-ES{
+  background-color: blue;
+}
+
+.ess{
+  grid-column: 1/4;
+}
+
+.CBS{
+  background-color: lightblue;
+}
+
+.cbs{
+  grid-column: 1/4;
+}
+
+.ID{
+  background-color: aquamarine;
+}
+
+.sid{
+  grid-column: 1/4;
+}
+
+.DSFW{
+    background-color: aqua;
+}
+
+.sfw{
+  grid-column: 1/4;
 }

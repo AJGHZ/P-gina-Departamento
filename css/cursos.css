@@ -1,0 +1,92 @@
+.container {
+  width: 100%;
+  display: flex;
+  max-width: 1400px; /* Recomendado para 3 cards dentro del container */
+  flex-wrap: nowrap;
+}
+.container2 {
+  /* Segundo container para contener nomas 2 cards */
+  width: 100%;
+  display: flex;
+  max-width: 1000px;
+  flex-wrap: nowrap;
+}
+.container1 {
+  /* Tercer container para contener nomas una cards */
+  width: 100%;
+  display: flex;
+  max-width: 500px;
+  flex-wrap: nowrap;
+}
+.Des {
+  margin: 20px;
+}
+.card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.card:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.card img {
+  width: 100%;
+  height: 210px;
+}
+
+.card .info {
+  padding: 15px;
+  text-align: center;
+}
+
+.card .info p {
+  line-height: 1.5;
+  color: gray;
+}
+
+.card .info h3 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background: #fff; /* color de fondo */
+  color: #4741d7; /* color de fuente */
+  border: 2px solid #4741d7; /* tamaño y color de borde */
+  padding: 16px 20px;
+  border-radius: 3px; /* redondear bordes */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+}
+.btn:hover {
+  color: #fff; /* color de fuente hover */
+}
+.btn::after {
+  content: "";
+  background: #4741d7; /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  border-radius: 50%;
+  left: -50%;
+  right: -50%;
+  top: -150%;
+  bottom: -150%;
+  transform: scale(0, 0);
+  transition: all 0.4s ease;
+}
+.btn:hover::after {
+  transition: all 0.6s ease-out;
+  transform: scale(1, 1);
+}

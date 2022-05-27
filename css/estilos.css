@@ -81,7 +81,7 @@ body {
   justify-self: end;
 }
 
-@media screen and (max-width: 747px) {
+@media(max-width: 747px) {
   .slider__body {
     grid-template-columns: 1fr;
     grid-template-rows: max-content 1fr;
@@ -98,7 +98,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media(max-width: 1080px) {
   .slider__container {
     grid-template-columns: 25px 1fr 25px;
   }
@@ -123,7 +123,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media(max-width: 1080px) {
   .slider__container {
     grid-template-columns: 25px 1fr 25px;
   }
@@ -155,7 +155,7 @@ body {
   text-align: justify;
 }
 
-@media screen and (max-width: 747px) {
+@media(max-width: 747px) {
   .info__container {
     font-family: "Raleway", sans-serif;
     font-size: large;
@@ -165,7 +165,7 @@ body {
 
 
 
-@media screen and (max-width: 470px) {
+@media(max-width: 470px) {
   .info__container {
     font-family: "Raleway", sans-serif;
     font-size: medium; 
@@ -201,9 +201,9 @@ body {
   padding: 40px 0px 0px 32px;
 }
 
-@media screen and(max-width: 747px){
+@media(max-width: 747px){
   .link__container{
-    grid-column: 2/3;
+  grid-column: 2/3;
   grid-row: 1/2;
   display: grid;
   background-color: silver;
@@ -260,7 +260,7 @@ body {
   color: white;
 }
 
-@media screen and (max-width: 747px) {
+@media(max-width: 747px) {
   #menu ul {
     padding: 0;
   }
@@ -276,7 +276,7 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media(max-width: 480px) {
   #menu ul li {
     width: 100%;
   }
@@ -288,30 +288,6 @@ body{
   font-size:medium;
 }
 
-.menu--2{
-  list-style: none;
-  padding: 5px 9px;
-  background: black;
-  width: 100%;
-  max-width:100px;
-  margin: auto;
-}
-
-.menu--2 li a{
-  text-decoration: none;
-  color: white;
-  padding: 1px;
-  display: block;
-  font-size: smaller;
-}
-.menu--2 li{
-  display: inline-block;
-  text-align: center;
-
-}
-.menu--2 li a:hover{
-  background: #708090;
-}
 
 /*Dropdown container*/
 .dropdown {
@@ -400,6 +376,7 @@ input, textarea{
 .malla-container{
   background-color: aqua;
   text-align: center;
+  
 }
 
 .materias-container{

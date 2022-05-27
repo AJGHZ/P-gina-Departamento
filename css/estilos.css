@@ -288,6 +288,30 @@ body{
   font-size:medium;
 }
 
+.menu{
+  list-style: none;
+  padding: 20px 30px;
+  background: black;
+  width: 100%;
+  max-width:100px;
+  margin: auto;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: silver;
+  padding: 1px;
+  display: block;
+  font-size: x-small;
+}
+.menu li{
+  display: inline-block;
+  text-align: center;
+
+}
+.menu li a:hover{
+  background: #708090;
+}
 
 /*Dropdown container*/
 .dropdown {
@@ -376,7 +400,6 @@ input, textarea{
 .malla-container{
   background-color: aqua;
   text-align: center;
-  
 }
 
 .materias-container{

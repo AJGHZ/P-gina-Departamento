@@ -151,8 +151,8 @@ body {
 /*Información pagina principal*/
 .info__container {
   font-family: "Raleway", sans-serif;
-  font-size: xx-large;
-  text-align: justify;
+  font-size: large;
+  text-align: center justify;
 }
 
 @media(max-width: 747px) {
